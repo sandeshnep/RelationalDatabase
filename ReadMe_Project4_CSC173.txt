@@ -1,0 +1,73 @@
+CSC 173 
+Project 4 
+Collaborators: 
+Sandesh Paudel 
+Azmayeen Fayeque Rhythm 
+
+Instructions for Build:
+
+For Windows:
+From the command line inside of the folder containing "main.c", please run
+makeMe.bat
+
+For Linux:
+From the terminal inside the folder containing "main.c", please run the following:
+
+chmod +x makeMe.bat
+
+
+./makeMe.bat
+
+
+chmod +x RunMe
+
+	Run instructions.
+
+Windows:
+After building, run RunMe.exe by entering the following to the command line
+RunMe.exe
+Linux:
+After doing the build, please run demo entering into the command line
+
+./RunMe
+
+This will run the program in the terminal. 
+
+
+
+The project: 
+
+** The test cases for the three parts described below are in the main method all the way down in the source code **
+
+The project is divided into three parts: 
+
+1) The first part: It implements the database containing the relation in the fig 8.1 and 8.2. 
+                   They are: CSG SNAP CDH CP CR 
+                   Each of them has methods: 
+                 * Insert, Delete and LookUp  
+
+The insert method populates the data given at tables in the book. In the main method we test it by printing the tables. 
+In the main method, for each of the tables - we first insert the data from the book and demonstrate the operation by printing it. 
+
+Reading from the file and Saving to the file. 
+
+--The save_to_file method : saves all the tables and data inside in a txt. file called Database.txt  
+--The InsertFromFile: It takes a filename to take in the data and insert it. To check if this method works: 
+  call it in the main method, and give Database.txt as its parameter. If you print any table after calling insertFromFile then it will print the data in that table twice. 
+  
+2) The second Part: We wrote two functions to answer the query and helper functions to support those. 
+--The method Question2one and Question2two is used to test the part 2. In the main method we test it by these examples: 
+
+For: What grade did StudentName get in Course-Name?
+Question2one ("L. Van Pelt", "CS101");
+Question2one ("C. Brown", "CS101");    
+
+For: Where is StudentName at Time on Day?”
+Question2two ("C. Brown", "9AM", "M");
+
+3) The third Part: In this part we implemented the Relational Algebra operations. The implementation of Union, Intersection, Difference, Selection, Projection and Join done for (1). 
+                   For (2), the relational algebras are used to iplement three examples from the book, which shows the use of "Selection, Projection and Join".                  
+                
+
+Testing: The main method is used for testing all the three parts. The source code is well commented as to how we are testing each functions. The write up also talks in detail about how each function is tested with snapshots of the test cases under the functions. 
+  
