@@ -62,7 +62,7 @@ For: What grade did StudentName get in Course-Name?
 Question2one ("L. Van Pelt", "CS101");
 Question2one ("C. Brown", "CS101");    
 
-For: Where is StudentName at Time on Day?î
+For: Where is StudentName at Time on Day?‚Äù
 Question2two ("C. Brown", "9AM", "M");
 
 3) The third Part: In this part we implemented the Relational Algebra operations. The implementation of Union, Intersection, Difference, Selection, Projection and Join done for (1). 
