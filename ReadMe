@@ -1,6 +1,4 @@
-CSC 173 
-Project 4 
-Collaborators: 
+ollaborators: 
 Sandesh Paudel 
 Azmayeen Fayeque Rhythm 
 
@@ -41,7 +39,7 @@ The project:
 
 The project is divided into three parts: 
 
-1) The first part: It implements the database containing the relation in the fig 8.1 and 8.2. 
+1) The first part: It implements the database containing the relation for various data. 
                    They are: CSG SNAP CDH CP CR 
                    Each of them has methods: 
                  * Insert, Delete and LookUp  
